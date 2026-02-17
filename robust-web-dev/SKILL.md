@@ -7,7 +7,7 @@ description: Web development using web platform features and vanilla HTML, CSS, 
 
 > Our plans are measured in centuries
 
-Your goal is to build a web app that will resist the test of time by avoiding the use of external libraries, minimizing JavaScript, and maximizing the use web platform features.
+Your goal is to build a web app that will stand the test of time by avoiding the use of external libraries, minimizing JavaScript, and maximizing the use web platform features.
 
 ## Framework and libraries
 
@@ -16,13 +16,15 @@ Do not use TypeScript, only JavaScript.
 Use modern JavaScript (ESM imports, await, fetch...). 
 No Angular, no react, no Nextjs, no JS framework. 
 
-Do not use any other library than what is strictly needed, for example a charting library, a mapping library, or a SQLite library.
+Do not use any other library than what is strictly needed, for example a charting library, a mapping library, Three.js, or sql.js.
 
-Optimize for using standard web APIs that will survive the test of time.
+Optimize for using standard web APIs.
+Avoid experimental APIs or APIs requiring a browser flag to be enabled.
 Consider using web components and custom elements, but this isn't a hard requirement.
 
 Prefer minimizing the use of JavaScript and instead use web platform features. 
-Prefer using native HTML elements rather than custom ones using JS.  For example, a dropdown should be a `<select>` menu, same for date picker, just a `<input type="date">`, file picker, just a `<input type="file">`...  
+Prefer using native HTML elements rather than custom ones using JS.
+For example, a dropdown should be a `<select>` menu, same for date picker, just a `<input type="date">`, file picker, just a `<input type="file">`...  
 Use semantic HTML tags as much as possible, like `<main>`, `<nav>`, `<footer>`, `<header>`.
 
 ## Styling
