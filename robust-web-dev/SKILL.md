@@ -47,7 +47,9 @@ For example:
 Use semantic HTML tags as much as possible, like `<main>`, `<nav>`, `<footer>`, `<header>`.
 For user messages, use the dialog element, not `alert()`.
 
-Use of HTML templates.
+Use HTML templates to declare structure that is re-used accross the app.
+
+Make sure the app is accessible, use ARIA labels and implement accessibility best practices.
 
 ## Styling
 
