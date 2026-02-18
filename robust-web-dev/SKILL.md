@@ -32,6 +32,10 @@ Optimize for using standard web APIs.
 Avoid experimental APIs or APIs requiring a browser flag to be enabled.
 Consider using web components and custom elements, but this isn't a hard requirement.
 
+### Offline
+
+If building an app, evaluate using a `manifest.json` and Service Workers to implement offline support by caching all of the app's files.
+
 ## UI elements
 
 Work using HTML.
@@ -58,6 +62,8 @@ Use classes, no inline styles.
 Pay attention to CSS class names (never use classes like "centered" but semantic names like "signup-form"), overall CSS cleanliness, and re-usability.
 Use modern CSS features when possible, like CSS variables and color functions.
 
-Add light and dark mode.
+Add light and dark mode. Listen to system theme changes to change theme. 
 
 The layout should work well on large screen, medium screen like tablet, and mobile screen.
+
+Avoid pulling external fonts unless really necessary. 
