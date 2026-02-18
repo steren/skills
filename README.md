@@ -2,7 +2,7 @@
 
 [Steren](https://steren.fr)'s personal agent skills:
 
-- [**robust-web-dev**](./robust-web-dev/SKILL.md): Web development using web platform features and vanilla HTML, CSS, and JavaScript.
+- [**durable-web-dev**](./durable-web-dev/SKILL.md): Durable web development using the web platform and vanilla HTML, CSS, and JavaScript.
 
 ## Install
 

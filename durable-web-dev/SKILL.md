@@ -1,9 +1,9 @@
 ---
-name: robust-web-dev
+name: durable-web-dev
 description: Web development using web platform features and vanilla HTML, CSS, and JavaScript.
 ---
 
-# Web development using web platform features
+# Durable web development using the web platform
 
 > Our plans are measured in centuries
 
