@@ -55,7 +55,7 @@ Make sure the app is accessible, use ARIA labels and implement accessibility bes
 
 Use pure CSS, the way it was intended. No tailwind or shadcn/ui.
 Use classes, no inline styles.
-Pay attention to CSS class names (never use classes like "centered" but semantic names like "form-container"), overall CSS cleanliness, and re-usability.
+Pay attention to CSS class names (never use classes like "centered" but semantic names like "signup-form"), overall CSS cleanliness, and re-usability.
 Use modern CSS features when possible, like CSS variables and color functions.
 
 Add light and dark mode.
