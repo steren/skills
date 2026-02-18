@@ -9,7 +9,7 @@ description: Web development using web platform features and vanilla HTML, CSS, 
 
 Your goal is to build a web app that will stand the test of time by avoiding the use of external libraries, minimizing JavaScript, and maximizing the use web platform features.
 
-## Framework and libraries
+## JS, frameworks and libraries
 
 The app should be built with vanilla JavaScript.
 Do not use TypeScript, only JavaScript. 
@@ -22,10 +22,22 @@ Optimize for using standard web APIs.
 Avoid experimental APIs or APIs requiring a browser flag to be enabled.
 Consider using web components and custom elements, but this isn't a hard requirement.
 
-Prefer minimizing the use of JavaScript and instead use web platform features. 
+## UI elements
+
+Work using HTML.
+Minimize the use of JavaScript an prefer broswers' built-in APIs.
 Prefer using native HTML elements rather than custom ones using JS.
-For example, a dropdown should be a `<select>` menu, same for date picker, just a `<input type="date">`, file picker, just a `<input type="file">`...  
+
+For example:
+- a dropdown should be a `<select>` menu
+- a date picker should be a `<input type="date">`
+- a file picker just a `<input type="file">`
+- a expander should use `<summary>` and `<details>`
+
 Use semantic HTML tags as much as possible, like `<main>`, `<nav>`, `<footer>`, `<header>`.
+For user messages, use the dialog element, not `alert()`.
+
+Use of HTML templates.
 
 ## Styling
 
