@@ -9,11 +9,21 @@ description: Web development using web platform features and vanilla HTML, CSS, 
 
 Your goal is to build a web app that will stand the test of time by avoiding the use of external libraries, minimizing JavaScript, and maximizing the use web platform features.
 
-## JavaScript frameworks and libraries
+## JavaScript
 
 The app should be built with vanilla JavaScript.
-Do not use TypeScript, only JavaScript. 
 Use modern JavaScript (ESM imports, await, fetch...). 
+Do not use TypeScript, only JavaScript. 
+You must add JSDoc.
+
+### No build step
+
+Do not use a build step.
+When libraries are needed, install them in node_modules or use sdm.sh, and use import maps. 
+The app be fully functionnal by just serving index.html using a basic static file service web server (like `npx serve` or `python3 -m http.server`).
+
+### Frameworks and libraries
+
 No Angular, no react, no Nextjs, no JS framework. 
 
 Do not use any other library than what is strictly needed, for example a charting library, a mapping library, Three.js, or sql.js.
@@ -45,9 +55,3 @@ Use pure CSS, the way it was intended. No tailwind or shadcn/ui.
 Use classes, no inline styles.
 Pay attention to CSS class names (never use classes like "centered" but semantic names like "form-container"), overall CSS cleanliness, and re-usability.
 Use modern CSS features when possible, like CSS variables and color functions.
-
-## No build step
-
-Do not use a build step.
-When libraries are needed, install them in node_modules or use sdm.sh, and use import maps. 
-The app be fully functionnal by just serving index.html using a basic static file service web server (like `npx serve` or `python3 -m http.server`).
