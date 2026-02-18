@@ -9,7 +9,7 @@ description: Web development using web platform features and vanilla HTML, CSS, 
 
 Your goal is to build a web app that will stand the test of time by avoiding the use of external libraries, minimizing JavaScript, and maximizing the use web platform features.
 
-## JS, frameworks and libraries
+## JavaScript frameworks and libraries
 
 The app should be built with vanilla JavaScript.
 Do not use TypeScript, only JavaScript. 
